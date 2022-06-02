@@ -1,0 +1,10 @@
+ #include<stdio.h>
+ //没有临时变量变量值交换
+int main()
+{
+	int a = 10; int b = 11;
+b = a + b - a;	a = a + b - b;
+	printf("b:%d a:%d", b, a);
+	system("pause");
+	return 0;
+}
