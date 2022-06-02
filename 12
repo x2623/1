@@ -1,0 +1,14 @@
+ #include<stdio.h>
+ //变量值交换
+int main()
+{
+	int a = 3;
+	int b = 5;
+	int c = 0;
+	 c=a;
+	 a = b;
+	 b = c;
+	 printf("a:%d b:%d", a, b);
+	 system("pause");
+	return 0;
+}
