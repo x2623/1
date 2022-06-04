@@ -1,0 +1,22 @@
+#include<stdio.h>
+//十个数求最大的值
+int main()
+{
+	int k = 0;
+	int arr[10] = {1,2,3,4,5,6,7,8,9,10};
+	for (k = arr[0]; k <= arr[9]; k++)
+	{
+		printf("%d\n", k);
+		
+		/*int v =0 ;
+		if (arr[0] <= k)
+		{
+			v = arr[0];
+			arr[0] = k;
+			k = v;
+		}*/
+	}
+	printf("%d\n", arr[0]);
+	system("pause");
+	return 0;
+}
