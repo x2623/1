@@ -1,0 +1,22 @@
+#include<stdio.h>
+//闰年
+int main()
+{
+	int a = 0; int cont = 0;
+	for (a = 1000; a <= 2000; a++)
+	{
+		if (a % 4 ==  0 && a % 100 != 0)
+		{
+			printf("闰年：%d\n", a);
+			cont++;
+		}
+		if (a % 400 == 0)
+		{
+			printf("闰年：%d\n",a);
+			cont++;
+		}
+	}
+	printf("%d\n", cont);
+	system("pause");
+	return 0;
+}
