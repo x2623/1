@@ -1,0 +1,16 @@
+#include<stdio.h>
+//求最大公约数
+int main()
+{
+	int a = 40;
+	int b = 24;
+	int c = 0;
+	while (c = a % b)
+	{
+		a = b;
+		b = c;
+	}
+	printf("%d\n", b);
+	system("pause");
+	return 0;
+}
