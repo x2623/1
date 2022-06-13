@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+//将数组A中的内容和数组B中的内容进行交换。（数组一样大）
+int main()
+{
+	int a = 0; int b = 0;
+	char arr[] = "****heelow *帅哥*******";
+	char arr2[] = "*************************";
+	int c = 0;
+	int d = strlen(arr) - 1;
+	while (c <=d)
+	{
+		arr[c] = arr2[c];
+		arr[d] = arr2[d];
+		printf("%s\n", arr);
+		Sleep(1000);
+		system("cls");
+		c++;
+		d--;
+	}
+	
+	system("pause");
+	return 0;
+}
